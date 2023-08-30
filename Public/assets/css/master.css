@@ -240,12 +240,22 @@ body {
 }
 .Projects__Bottom__Card--First {
   grid-area: First;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
 }
 .Projects__Bottom__Card {
   grid-area: Second;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
 }
-.Projects__Bottom__Card__Img {
+.Projects__Bottom__Card__Img{
   grid-area: Top;
+  width:clamp(200px,250px,350px);
+  height:clamp(200px,250px,350px);
 }
 .Projects__Bottom__Card__Description {
   grid-area: Center;
